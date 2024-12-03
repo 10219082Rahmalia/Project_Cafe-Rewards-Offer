@@ -12,5 +12,7 @@ Customer diberi offer dengan pola waktu tertentu di mana jenis offer yang diberi
 Setiap pembelian oleh customer dalam periode ini ditandai sebagai `transaction`. Di mana pembelian yang melibatkan _offer_ diberi label `offer completed`.
 (Data Source: https://mavenanalytics.io/data-playground?order=date_added%2Cdesc&search=cafe)
 
+P.s. Ada empat file csv untuk projek ini, tetapi salah satu file tidak dapat diupload karena size-nya terlalu besar
+
 ## Insight
 ...
