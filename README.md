@@ -2,10 +2,10 @@
 
 ## Description of the data
 The data being worked on is data of customers' interaction with offers by Cafe Rewards within 30 days (data source: [mavenanalytics.io](mavenanalytics.io/data-playground), ‘Cafe Rewards Offer’). The dataset contains the following data frames:
-* customers (called `df_cs`): customers' demography
-* events (`df_events`): data of transactions and customers' interaction with offers (the file size is too large to include here)
-* offers (`df_offers`): contain details of offers
-* `data_dictionary`: the dictionary of every column in the datasets.
+* customers.csv (called `df_cs`): customers' demography
+* events.csv (`df_events`): data of transactions and customers' interaction with offers (the file size is too large to include here)
+* offers.csv (`df_offers`): contain details of offers
+* data_dictionary.csv: the dictionary of every column in the datasets.
 
 During this period, customers were given offers with a certain pattern (related to time and the type of offer) which had been planned to maximize the possibility of the customer's purchase. The types of offers are grouped into three types: **BOGO** (Buy One, Get One), **discount**, and **informational** (advertisement of cafe's product). Each type has several offers with different `offer_id` and offer details such as difficulty (the minimum amount needed), reward, duration, and cafe's channel which is used to spread the offers.
 
